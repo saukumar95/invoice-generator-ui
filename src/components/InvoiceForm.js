@@ -132,7 +132,7 @@ class InvoiceForm extends React.Component {
         <Col md={8} lg={9}>
           <Card className="p-4 p-xl-5 my-3 my-xl-4">
             <div className="d-flex flex-row justify-content-between align-item-baseline mb-3">
-              <Row style={{ width: "40%" }}>
+              <Row style={{ width: "50%" }}>
                 <Col>
                   <Form.Label className="fw-bold">Bill to:</Form.Label>
                   <Form.Control placeholder={"Who is this invoice to?"} rows={3} value={this.state.billTo} type="text" name="billTo" className="my-2" onChange={(event) => this.editField(event)} autoComplete="name" required="required" />
@@ -142,52 +142,52 @@ class InvoiceForm extends React.Component {
                 <div className="d-flex flex-row align-items-center mb-2">
                   <span className="fw-bold me-2">Company&nbsp;GST&nbsp;No.:</span>
                   <Form.Control type="text" value={this.state.companyGst} name={"companyGst"} onChange={(event) => this.editField(event)} min="1" style={{
-                    maxWidth: '200px'
+                    maxWidth: '100%'
                   }} required="required" />
                 </div>
                 <div className="d-flex flex-row align-items-center mb-2">
                   <span className="fw-bold me-2">Nature&nbsp;of&nbsp;work:</span>
                   <Form.Control type="text" value={this.state.natureOfWork} name={"natureOfWork"} onChange={(event) => this.editField(event)} min="1" style={{
-                    maxWidth: '220px'
+                    maxWidth: '100%'
                   }} required="required" />
                 </div>
               </Row>
-              <Row style={{ width: "30%" }}>
+              <Row style={{ width: "50%" }}>
                 <Col>
                   <div className="d-flex flex-row align-items-center mb-2">
                     <span className="fw-bold d-block me-2">Invoice&nbsp;Date:</span>
                     <Form.Control type="date" value={this.state.dateOfIssue} name={"dateOfIssue"} onChange={(event) => this.editField(event)} style={{
-                      maxWidth: '150px'
+                      maxWidth: '100%'
                     }} required="required" />
                   </div>
                   <div className="d-flex flex-row align-items-center mb-2">
                     <span className="fw-bold me-2">Invoice&nbsp;No.:&nbsp;</span>
                     <Form.Control type="text" value={this.state.invoiceNumber} name={"invoiceNumber"} onChange={(event) => this.editField(event)} min="1" style={{
-                      maxWidth: '150px'
+                      maxWidth: '100%'
                     }} required="required" />
                   </div>
                   <div className="d-flex flex-row align-items-center mb-2">
                     <span className="fw-bold d-block me-2">Vendor&nbsp;Code:</span>
                     <Form.Control type="text" value={this.state.vendorCode} name={"vendorCode"} onChange={(event) => this.editField(event)} style={{
-                      maxWidth: '150px'
+                      maxWidth: '100%'
                     }} required="required" />
                   </div>
                   <div className="d-flex flex-row align-items-center mb-2">
                     <span className="fw-bold d-block me-2">WO&nbsp;No.:</span>
                     <Form.Control type="text" value={this.state.woNumber} name={"woNumber"} onChange={(event) => this.editField(event)} style={{
-                      maxWidth: '150px'
+                      maxWidth: '100%'
                     }} required="required" />
                   </div>
                   <div className="d-flex flex-row align-items-center mb-2">
                     <span className="fw-bold d-block me-2">PAN:</span>
                     <Form.Control type="text" value={this.state.vendorPan} name={"vendorPan"} onChange={(event) => this.editField(event)} style={{
-                      maxWidth: '150px'
+                      maxWidth: '100%'
                     }} required="required" />
                   </div>
                   <div className="d-flex flex-row align-items-center mb-2">
                     <span className="fw-bold d-block me-2">GST:</span>
                     <Form.Control type="text" value={this.state.vendorGst} name={"vendorGst"} onChange={(event) => this.editField(event)} style={{
-                      maxWidth: '150px'
+                      maxWidth: '100%'
                     }} required="required" />
                   </div>
                 </Col>
