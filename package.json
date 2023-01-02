@@ -2,7 +2,7 @@
   "name": "invoice-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saukumar95.github.io/invoice-generator",
+  "homepage": "https://saukumar95.github.io/invoice-generator-ui",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
