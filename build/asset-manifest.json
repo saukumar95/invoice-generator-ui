@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/invoice-generator-ui/static/css/main.fda6aa90.chunk.css",
-    "main.js": "/invoice-generator-ui/static/js/main.7c80ee6e.chunk.js",
-    "main.js.map": "/invoice-generator-ui/static/js/main.7c80ee6e.chunk.js.map",
+    "main.js": "/invoice-generator-ui/static/js/main.0e15a0c5.chunk.js",
+    "main.js.map": "/invoice-generator-ui/static/js/main.0e15a0c5.chunk.js.map",
     "runtime-main.js": "/invoice-generator-ui/static/js/runtime-main.73740e78.js",
     "runtime-main.js.map": "/invoice-generator-ui/static/js/runtime-main.73740e78.js.map",
     "static/js/2.0061da88.chunk.js": "/invoice-generator-ui/static/js/2.0061da88.chunk.js",
@@ -26,6 +26,6 @@
     "static/css/3.818011ed.chunk.css",
     "static/js/3.d81ebc4d.chunk.js",
     "static/css/main.fda6aa90.chunk.css",
-    "static/js/main.7c80ee6e.chunk.js"
+    "static/js/main.0e15a0c5.chunk.js"
   ]
 }
